@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Image;
 
 class PostController extends Controller
 {
@@ -26,6 +27,8 @@ class PostController extends Controller
     public function create()
     {
         //
+        //$img = image::make('foo.jpg')->resize(300, 200);
+        
     }
 
     /**
