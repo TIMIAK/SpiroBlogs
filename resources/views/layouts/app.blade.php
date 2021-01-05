@@ -103,6 +103,17 @@
                         </div>
                         {{-- <a href="single-page.html" class="nav-item nav-link">Single Page</a> --}}
                         <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        @guest
+                            <a href="{{route('login')}}" class="nav-item nav-link">Login</a>
+                        @else
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">My Account</a>
+                            <div class="dropdown-menu">
+                                <a href="{{route('dashboard')}}" class="dropdown-item">Dashboard</a>
+                                {{-- <a href="" id= "logout" class="dropdown-item">Logout</a> --}}
+                            </div>
+                        </div>
+                        @endguest
                     </div>
                     <div class="social ml-auto">
                         <a href=""><i class="fab fa-twitter"></i></a>
