@@ -33,3 +33,5 @@ Route::get('cat/technology', [HomeController::class , 'technology'])->name('cat.
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('search', [HomeController::class , 'search'])->name('search');

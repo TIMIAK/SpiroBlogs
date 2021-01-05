@@ -67,4 +67,11 @@ class HomeController extends Controller
         return view('cat.world',compact('world'));
     }
 
+    public function search(Request $request)
+    {
+        $result = $request->search_item;
+        return view('search',compact('result'));
+        // dd($request->search_item);
+    }
+
 }
