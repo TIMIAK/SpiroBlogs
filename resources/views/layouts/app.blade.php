@@ -60,8 +60,8 @@
                 </div>
                 <div class="col-lg-6 col-md-4">
                     <div class="b-ads">
-                        <a href="https://htmlcodex.com">
-                            <img src="img/ads-1.jpg" alt="Ads">
+                        <a href="#">
+                            <img src="{{asset('img/ads-1.jpg')}}" alt="Ads">
                         </a>
                     </div>
                 </div>
@@ -91,14 +91,14 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Sport</a>
-                                <a href="#" class="dropdown-item">Entertainment</a>
-                                <a href="#" class="dropdown-item">Education</a>
-                                <a href="#" class="dropdown-item">Politics</a>
-                                <a href="#" class="dropdown-item">Business</a>
-                                <a href="#" class="dropdown-item">Health</a>
-                                <a href="#" class="dropdown-item">World</a>
-                                <a href="#" class="dropdown-item">Technology</a>
+                                <a href="{{route('cat.sport')}}" class="dropdown-item">Sport</a>
+                                <a href="{{route('cat.entertainment')}}" class="dropdown-item">Entertainment</a>
+                                <a href="{{route('cat.education')}}" class="dropdown-item">Education</a>
+                                <a href="{{route('cat.politics')}}" class="dropdown-item">Politics</a>
+                                <a href="{{route('cat.business')}}" class="dropdown-item">Business</a>
+                                <a href="{{route('cat.health')}}" class="dropdown-item">Health</a>
+                                <a href="{{route('cat.world')}}" class="dropdown-item">World</a>
+                                <a href="{{route('cat.technology')}}" class="dropdown-item">Technology</a>
                             </div>
                         </div>
                         {{-- <a href="single-page.html" class="nav-item nav-link">Single Page</a> --}}
@@ -169,7 +169,7 @@
                     <div class="footer-widget">
                         <h3 class="title">Hot Catigories</h3>
                         <ul>
-                            <li><a href="#">Sports</a></li>
+                            <li><a href="{{route('cat.sport')}}">Sports</a></li>
                             <li><a href="#">Entertainment</a></li>
                             <li><a href="#">Politics</a></li>
                             <li><a href="#">Education</a></li>
@@ -225,11 +225,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 copyright">
-                    <p>Copyright &copy; <a href="https://gitconnected.com/timiak">TimBaron</a>. All Rights Reserved</p>
+                    <p>Copyright &copy; <a href="https://gitconnected.com/timiak" target="_blank">TimBaron</a>. All Rights Reserved</p>
                 </div>
 
                 <div class="col-md-6 template-by">
-                    <p>Website Created By <a href="https://gitconnected.com/timiak">Tim-Baron</a></p>
+                    <p>Website Created By <a href="https://gitconnected.com/timiak" target="_blank">Tim-Baron</a></p>
                 </div>
             </div>
         </div>
