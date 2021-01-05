@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <!-- Category News Start-->
+    <!-- Sport and technology Category News Start-->
     <div class="cat-news">
         <div class="container">
             <div class="row">
@@ -137,9 +137,74 @@
             </div>
         </div>
     </div>
-    <!-- Category News End-->
+    <!--Sport and technology Category News End-->
+    <!-- Business and Entertainment Category News Start-->
+    <div class="cat-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Business</h2>
+                    <div class="row cn-slider">
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-5.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-4.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-3.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Entertainment</h2>
+                    <div class="row cn-slider">
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-2.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-1.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cn-img">
+                                <img src="img/news-350x223-3.jpg" />
+                                <div class="cn-title">
+                                    <a href="">Lorem ipsum dolor sit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Business and Entertainment Category News End-->
 
-    
 
 
 
