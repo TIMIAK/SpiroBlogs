@@ -110,7 +110,18 @@
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">My Account</a>
                             <div class="dropdown-menu">
                                 <a href="{{route('dashboard')}}" class="dropdown-item">Dashboard</a>
-                                {{-- <a href="" id= "logout" class="dropdown-item">Logout</a> --}}
+                                <a class="dropdown-item" id="logout" onclick="logout()">Logout</a>
+                                {{-- Logout form Start --}}
+                                <form action="{{route('logout')}}" id="logout-form" method="POST">
+                                    @csrf
+                                    <script>
+                                        function logout()
+                                        {
+                                            document.getElementById('logout-form').submit();
+                                        }
+                                    </script>
+                                </form>
+                                {{-- Logout form End --}}
                             </div>
                         </div>
                         @endguest
