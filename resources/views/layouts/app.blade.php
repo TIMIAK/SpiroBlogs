@@ -91,11 +91,13 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Politics</a>
-                                <a href="#" class="dropdown-item">Entertainment</a>
+                                <a href="#" class="dropdown-item">Sport</a>
                                 <a href="#" class="dropdown-item">Education</a>
+                                <a href="#" class="dropdown-item">Entertainment</a>
+                                <a href="#" class="dropdown-item">Politics</a>
+                                <a href="#" class="dropdown-item">Business</a>
                                 <a href="#" class="dropdown-item">Health</a>
-                                <a href="#" class="dropdown-item">Nigeria</a>
+                                <a href="#" class="dropdown-item">Technology</a>
                             </div>
                         </div>
                         {{-- <a href="single-page.html" class="nav-item nav-link">Single Page</a> --}}
