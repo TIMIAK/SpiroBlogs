@@ -120,6 +120,103 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3 class="title">Get in Touch</h3>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>123 News Street, NY, USA</p>
+                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-phone"></i>+123-456-7890</p>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3 class="title">Hot Catigories</h3>
+                        <ul>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Entertainment</a></li>
+                            <li><a href="#">Politics</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Business</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3 class="title">Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Advertise with us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Donote to SpiroBlogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3 class="title">Newsletter</h3>
+                        <div class="newsletter">
+                            <p>
+                                Subscribe to our newsletter so you can be the first to be notified when we update our stories
+                            </p>
+                            <form>
+                                <input class="form-control" type="email" placeholder="Your email here">
+                                <button class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer Menu Start -->
+    <div class="footer-menu">
+        <div class="container">
+            <div class="f-menu">
+                <a href="">Advertise with us</a>
+                <a href="">Contact us</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Menu End -->
+
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+                    <p>Copyright &copy; <a href="https://gitconnected.com/timiak">TimBaron</a>. All Rights Reserved</p>
+                </div>
+
+                <div class="col-md-6 template-by">
+                    <p>Website Created By <a href="https://gitconnected.com/timiak">Tim-Baron</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
     </div>
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
