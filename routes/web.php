@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('posts',[PostController::class ,'index']);
 Route::get('dashboard', [HomeController::class , 'dashboard'])->name('dashboard');
@@ -30,8 +31,14 @@ Route::get('cat/politics', [HomeController::class , 'politics'])->name('cat.poli
 Route::get('cat/business', [HomeController::class , 'business'])->name('cat.business');
 Route::get('cat/world', [HomeController::class , 'world'])->name('cat.world');
 Route::get('cat/technology', [HomeController::class , 'technology'])->name('cat.technology');
+
+// Auth Route
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// Search Route
 Route::get('search', [HomeController::class , 'search'])->name('search');
+
+// Contact Routes
+Route::get('contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('contact-now',[HomeController::class ,'contactNow'])->name('contact.now');

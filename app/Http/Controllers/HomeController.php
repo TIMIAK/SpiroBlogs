@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
@@ -72,6 +73,14 @@ class HomeController extends Controller
         $result = $request->search_item;
         return view('search',compact('result'));
         // dd($request->search_item);
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function contactNow(ContactRequest $request)
+    {
+        dd($request->all());
     }
 
 }

@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         {{-- <a href="single-page.html" class="nav-item nav-link">Single Page</a> --}}
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="{{route('contact')}}" class="nav-item nav-link">Contact Us</a>
                         @guest
                             <a href="{{route('login')}}" class="nav-item nav-link">Login</a>
                         @else
@@ -183,9 +183,9 @@
                     <div class="footer-widget">
                         <h3 class="title">Quick Links</h3>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="{{route('home')}}">Home</a></li>
                             <li><a href="#">Advertise with us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="{{route('contact')}}">Contact Us</a></li>
                             <li><a href="#">Donote to SpiroBlogs</a></li>
                         </ul>
                     </div>
